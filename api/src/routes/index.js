@@ -14,11 +14,8 @@ const router = Router();
 
 
 router.get("/type", types.getTypes);
-
 router.post("/recipe", recipes.createRecipe);
-
 router.get("/recipe", recipes.getRecipes);
-
 router.get('/recipe/:id', recipes.getRecipesById);
 
 module.exports = router;
