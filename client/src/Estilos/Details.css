@@ -1,0 +1,17 @@
+.detalle {
+    display: flex;
+    background-color: rgb(231, 218, 218, 0.3);
+    width: 1250px;
+    height: 1250px;
+    font: optional;
+    color:aliceblue;
+   
+   }
+.sumary{
+    width: 900px;
+    justify-content: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  
+}

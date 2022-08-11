@@ -1,0 +1,100 @@
+
+.posicion{
+margin-top: 22%;
+font-size: 50px;
+color:  rgb(243, 157, 82);
+text-shadow: black 0.1em 0.1em 0.2em;
+}
+button {
+    padding: 1.5em 2em;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgb(243, 157, 82);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .input-wrapper input {
+    background-color: #eee;
+    border: none;
+    padding: 0.3rem;
+    font-size: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+    color: lightcoral;
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+   }
+   
+   .input-wrapper input:focus {
+    outline-color: lightcoral;
+   }
+  
+  button:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
+
+
+
+
+/*.total{
+    background-image: url('../images/background-fruit-vegetables-cuts-hd-wallpaper-preview.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+min-height : 120vh;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+
+
+*/
+/*
+.landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;   
+   
+}
+
+.welcomeMsg {
+    display: flex;
+    padding: 7px;
+    color: #75f7e7;
+    font-family: 'The Nautigal', cursive;
+    font-size: 80px;
+    /* font-weight: 700;    
+    text-shadow: 6px 4px 5px rgba(252, 13, 13, 0.88);
+}
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+.homeButton {
+    color: #54f7e7;
+    background-color: hsl(0, 47%, 64%);
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 25px;
+    margin: 15px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px 1px rgb(85, 78, 78);
+    cursor: pointer;
+}
+
+.homeButton:hover {
+    color:#ce5249;
+    background-color: rgb(231, 218, 218);
+}
+*/

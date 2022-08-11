@@ -1,0 +1,145 @@
+
+.card{
+    display: grid;
+    height: 650px;
+    width: 100%;
+    margin-bottom: 1%;
+    gap: 1%;
+    grid-template-columns: repeat(3, 1fr);
+}
+.home {
+    font-style: italic;
+    text-shadow: 10px 8px 9px rgba(0,0,0,0.60);
+    font-size: 18px;
+    color: rgb(250, 250, 250);
+    background-image:url('../images/background-fruit-vegetables-cuts-hd-wallpaper-preview.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+   }
+
+   .titulo{
+    margin-top: 3%;
+    font-size: 60px;
+    color:  rgb(243, 157, 82);
+    text-shadow: black 0.1em 0.1em 0.2em;
+    }
+    .boton{
+        background-color: #eee;
+        border: none;
+        padding: 0.3rem;
+        font-size: 1rem;
+        width: 10em;
+        border-radius: 1rem;
+        color: lightcoral;
+        box-shadow: 0 0.4rem #dfd9d9;
+        cursor: pointer;
+    }
+    .form{
+        background-color: #eee;
+        border-radius: 4rem;
+        padding: 0.3rem;
+        font-size: 1rem;
+        width: 8em;
+        border-radius: 1rem;
+        color: lightcoral;
+        box-shadow: 0 0.4rem #dfd9d9;
+        cursor: pointer;
+        margin-left: 45%;
+    }
+    .error{
+        color:aliceblue;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+/*
+ 
+.home {
+    
+
+
+ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+.initialMsg {
+    display: flex;
+    color: rgb(6, 6, 75);
+    font-style: italic;
+    font-weight: 700;    
+    text-shadow: 6px 4px 5px rgba(0,0,0,0.43);
+}
+
+.refreshButton {
+    color: rgb(231, 218, 218);
+    background-color: #ce5249;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 25px;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px 1px rgb(112, 44, 44);
+    cursor: pointer;
+}
+
+.refreshButton:hover {
+    color:#ce5249;
+    background-color: rgb(231, 218, 218);
+}
+
+.addButton {
+    color: rgb(231, 218, 218);
+    background-color: #ce5249;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 25px;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px 1px rgb(112, 44, 44);
+    cursor: pointer;
+}
+
+.addButton:hover {
+    color:#ce5249;
+    background-color: rgb(231, 218, 218);
+}
+
+.filters {
+    display: flex;
+    color: rgb(6, 6, 75);
+    font-style: italic;
+    font-weight: 500;    
+    text-shadow: 6px 4px 5px rgba(0,0,0,0.43);
+    padding: 10px 3px 0px;
+    
+}
+
+.select {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.eachRecipe {
+    display: flex;
+    padding: 3px;
+}
+
+.linkRecetas {    
+    text-decoration: none;    
+}
+
+.linkRecetas:visited {
+    color: none;
+    text-decoration: none;
+}
+
+.allrecipes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    flex-wrap: wrap;
+    padding: 10px;
+    
+} */
